@@ -11,7 +11,7 @@
 
 3. Go to the <https://github.com/settings/tokens/new> page to create a token, just grant the **gist** permission.
 
-4. Run `python src/get_session.py` to get session token.
+4. Run `python src/get_session_token.py` to get session token.
 
 5. Go to the repository **Settings > Secrets**, Add the following environment variables:
    - NINTENDO_SESSION_TOKEN: The session token you got from the previous step.
